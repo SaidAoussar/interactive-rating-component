@@ -96,21 +96,21 @@
 
   .thankyou {
     &__img {
-      margin-bottom: 30px;
+      margin-bottom: 1.875rem;
     }
     &__text {
       display: inline-block;
       letter-spacing: 1px;
-      font-size: 14px;
+      font-size: 0.875rem;
       color: #ce8552;
       padding: 10px 20px;
-      margin-bottom: 38px;
+      margin-bottom: 1.625rem;
       background-color: #7c87982e;
       border-radius: 20px;
     }
 
     &__title {
-      margin-bottom: 18px;
+      margin-bottom: 1.125rem;
       font-size: 1.625rem;
       font-weight: $bold;
     }

@@ -58,3 +58,11 @@ section.wrapper {
 .text-center {
   text-align: center;
 }
+
+.attribution {
+  color: $white;
+  font-size: 12px;
+  > a {
+    color: #fc7613;
+  }
+}
