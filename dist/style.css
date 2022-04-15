@@ -64,6 +64,15 @@ section.wrapper {
   text-align: center;
 }
 
+.attribution {
+  color: white;
+  font-size: 12px;
+}
+
+.attribution > a {
+  color: #fc7613;
+}
+
 .card {
   background-color: #252d37;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#212530), to(#181c25));
@@ -171,22 +180,22 @@ section.wrapper {
 }
 
 .card .thankyou__img {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .card .thankyou__text {
   display: inline-block;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #ce8552;
   padding: 10px 20px;
-  margin-bottom: 38px;
+  margin-bottom: 1.625rem;
   background-color: #7c87982e;
   border-radius: 20px;
 }
 
 .card .thankyou__title {
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
   font-size: 1.625rem;
   font-weight: 700;
 }
