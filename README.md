@@ -4,19 +4,12 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
 
 ### The challenge
 
@@ -34,10 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/SaidAoussar/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://saidaoussar.github.io/interactive-rating-component/)
-
-## My process
+- Solution URL: [code](https://github.com/SaidAoussar/interactive-rating-component)
+- Live Site URL: [demo](https://saidaoussar.github.io/interactive-rating-component/)
 
 ### Built with
 
@@ -45,12 +36,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Sass
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ### Useful resources
 
