@@ -1,0 +1,25 @@
+//576px 992px 1200px
+$breakpoints: (
+  "sm": 36em,
+  "lg": 62em,
+  "xl": 75em,
+);
+
+// @mixin breakpoint-up($size) {
+//   @media (min-width: map-get($breakpoints, $size)) {
+//     @content;
+//   }
+// }
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints,$size)) {
+    @content;
+  }
+}
+
+// @mixin breakpoint-down($size) {
+//   /* On screens that are $size or less, set the @content */
+//   @media (max-width: map-get($breakpoints-down,$size)) {
+//     @content;
+//   }
+// }
