@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="wrapper container">
+      <article class="card container--pall">
+        <div class="rating">
+          <div class="rating__icon">
+            <span><img src="/images/icon-star.svg" /></span>
+          </div>
+          <div class="rating__title">How did we do?</div>
+          <div class="rating__description">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </div>
+          <div class="rating__buttons">
+            <!-- 1 -->
+            <input
+              type="checkbox"
+              id="c1"
+              class="chk-btn"
+              value="1"
+              onclick="selectOne(this)"
+            />
+            <label for="c1">1</label>
+            <!-- 2 -->
+            <input
+              type="checkbox"
+              id="c2"
+              class="chk-btn"
+              value="2"
+              onclick="selectOne(this)"
+            />
+            <label for="c2">2</label>
+            <!-- 3 -->
+            <input
+              type="checkbox"
+              id="c3"
+              class="chk-btn"
+              value="3"
+              onclick="selectOne(this)"
+            />
+            <label for="c3">3</label>
+            <!-- 4 -->
+            <input
+              type="checkbox"
+              id="c4"
+              class="chk-btn"
+              value="4"
+              onclick="selectOne(this)"
+            />
+            <label for="c4">4</label>
+            <!-- 5 -->
+            <input
+              type="checkbox"
+              id="c5"
+              class="chk-btn"
+              value="5"
+              onclick="selectOne(this)"
+            />
+            <label for="c5">5</label>
+          </div>
+          <div class="rating__submit">
+            <button type="submit">submit</button>
+          </div>
+        </div>
+        <div class="thankyou text-center hide">
+          <div class="thankyou__img">
+            <img src="images/illustration-thank-you.svg" alt="" />
+          </div>
+          <div class="thankyou__text"></div>
+          <div class="thankyou__title">Thank you!</div>
+          <div class="thankyou__description">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="/app/js/app.js"></script>
+  </body>
+</html>
