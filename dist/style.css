@@ -21,7 +21,7 @@ body {
   height: 100vh;
 }
 
-section.wrapper {
+main.wrapper {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
