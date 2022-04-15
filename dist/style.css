@@ -1,0 +1,199 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: #121417;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1.3;
+  height: 100vh;
+}
+
+section.wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  max-width: 411px;
+  margin: 0 auto;
+}
+
+@media (max-width: 36em) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+.container--pall {
+  padding: 1.25rem;
+}
+
+.container--py {
+  padding-top: 2.625rem;
+  margin-bottom: 2.625rem;
+}
+
+.container--px {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: #252d37;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#212530), to(#181c25));
+  background-image: linear-gradient(to bottom, #212530, #181c25);
+  color: white;
+  border-radius: 1.875rem;
+}
+
+.card .rating__icon {
+  margin-bottom: 2rem;
+}
+
+.card .rating__icon span {
+  background-color: #282f39;
+  position: relative;
+  display: block;
+  height: 2.9375rem;
+  width: 2.9375rem;
+  border-radius: 50%;
+}
+
+.card .rating__icon span img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.card .rating__title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-bottom: 1.375rem;
+}
+
+.card .rating__description {
+  color: #959eac;
+  line-height: 1.5;
+  margin-bottom: 1.875rem;
+}
+
+.card .rating__buttons {
+  margin-bottom: 1.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .rating__buttons input.chk-btn {
+  display: none;
+}
+
+.card .rating__buttons input.chk-btn + label {
+  color: #959eac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #282f39;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.card .rating__buttons input.chk-btn:not(:checked) + label:hover {
+  background-color: #fc7613;
+  color: white;
+}
+
+.card .rating__buttons input.chk-btn + label:active,
+.card .rating__buttons input.chk-btn:checked + label {
+  background-color: #959eac;
+  color: white;
+}
+
+.card .rating__submit button {
+  display: block;
+  background-color: #fc7613;
+  color: white;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+  width: 100%;
+  cursor: pointer;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  border-radius: 3.125rem;
+  border: none;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.card .rating__submit button:hover {
+  background-color: white;
+  color: #fc7613;
+}
+
+.card .thankyou__img {
+  margin-bottom: 30px;
+}
+
+.card .thankyou__text {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #ce8552;
+  padding: 10px 20px;
+  margin-bottom: 38px;
+  background-color: #7c87982e;
+  border-radius: 20px;
+}
+
+.card .thankyou__title {
+  margin-bottom: 18px;
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+.card .thankyou__description {
+  color: #959eac;
+  line-height: 1.5;
+  margin-bottom: 1.875rem;
+}
+/*# sourceMappingURL=style.css.map */
